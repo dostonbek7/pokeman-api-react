@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .max-container{
+    @apply max-w-7xl w-full mx-auto px-10
+  }
+  html, #root{
+    @apply h-full
+  }
+  body{
+    @apply flex flex-col h-full
+  }
+}
